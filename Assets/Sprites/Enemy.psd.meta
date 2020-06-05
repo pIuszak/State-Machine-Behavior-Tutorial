@@ -1,12 +1,21 @@
 fileFormatVersion: 2
-guid: d55071a9cca357a4e9d56a53c7d284f5
+guid: fb4171b96432f3849a66a24e2f742fb8
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Cloud_0
-    21300002: Cloud_1
-    21300004: Cloud_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Enemy_0
+  - first:
+      213: 21300002
+    second: Enemy_1
+  - first:
+      213: 21300004
+    second: Enemy_2
+  - first:
+      213: 21300006
+    second: Enemy_3
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +33,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,7 +45,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -59,7 +70,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -70,7 +81,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -81,7 +93,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -92,7 +105,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -103,7 +117,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -114,7 +129,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -125,7 +141,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,65 +153,90 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cloud_0
+      name: Enemy_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1115
-        width: 729
-        height: 487
+        x: 51
+        y: 208
+        width: 388
+        height: 371
       alignment: 9
-      pivot: {x: 0.48187009, y: 0.14331782}
+      pivot: {x: 0.51259315, y: 0.029635817}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfcde96be84129d4b8de0785cba71f18
+      spriteID: 2653165de9cd2e7419515907ceb626c2
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cloud_1
+      name: Enemy_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 647
-        width: 786
-        height: 424
+        x: 163
+        y: 30
+        width: 163
+        height: 155
       alignment: 9
-      pivot: {x: 0.5072064, y: 0.06360209}
+      pivot: {x: 0.525694, y: 0.067677505}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b913e73d2ea100498c83bf1f17558c1
+      spriteID: d08e26da825e22f48a2386b36a3f5a2c
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cloud_2
+      name: Enemy_2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 150
-        width: 820
-        height: 451
+        x: 108
+        y: 53
+        width: 48
+        height: 116
       alignment: 9
-      pivot: {x: 0.5184203, y: 0.15252462}
+      pivot: {x: 0.48545742, y: 0.94528854}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc421920315b7524b8bd2302b0634e1d
+      spriteID: d07293cd9b799a340b1c5e28753faa1e
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 78
+        width: 75
+        height: 83
+      alignment: 9
+      pivot: {x: 0.10910889, y: 0.86162466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c787cd1791fdd11459156e57baf03918
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -202,12 +244,16 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ca43eee53dd3f104e90f4c501bf466af
+    spriteID: 8dae2a4b9f2ded24480853faec07baa9
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
